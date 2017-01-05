@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AppIntro from './AppIntro';
 import AppHeader from './AppHeader';
+import Clock from './Clock';
 import './App.css';
 
 function formatName(user) {
@@ -18,6 +19,7 @@ class App extends Component {
       <div className="App">
         <AppHeader name={formatName(user)} />
         <AppIntro name={formatName(user)} />
+        <Clock />
       </div>
     );
   }

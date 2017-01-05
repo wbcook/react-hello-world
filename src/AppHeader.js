@@ -9,7 +9,7 @@ class AppHeader extends Component {
       <div className="AppHeader">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hello, {this.props.name}!</h2>
+          <h1>Hello, {this.props.name}!</h1>
         </div>
       </div>
     );
