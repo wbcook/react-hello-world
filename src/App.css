@@ -18,6 +18,17 @@
   font-size: large;
 }
 
+.Clock-class {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Clock-class span {
+  color: lightgreen;
+  background-color: darkgreen;
+  border: .25em black solid;
+  padding: .12em;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

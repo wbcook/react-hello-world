@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LoginControl from './LoginControl';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,7 +10,7 @@ class AppHeader extends Component {
       <div className="AppHeader">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Hello, {this.props.name}!</h1>
+          <LoginControl name={this.props.name} />
         </div>
       </div>
     );

@@ -30,7 +30,7 @@ class Clock extends Component {
       <div className="Clock">
         <h2>It's high noon somewhere in the world.</h2>
         <p className="Clock-class">
-          It is {this.state.date.toLocaleTimeString()}.
+          It is <span>{this.state.date.toLocaleTimeString()}</span>
         </p>
       </div>
     );
