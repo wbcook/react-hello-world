@@ -10,8 +10,8 @@ function formatName(user) {
 }
 
 const user = {
-  firstName: 'Julia',
-  lastName: 'Child'
+  firstName: 'Nikola',
+  lastName: 'Tesla'
 };
 
 const developer = {

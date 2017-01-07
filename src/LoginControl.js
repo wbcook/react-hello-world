@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import EmailList from './EmailList';
 import './App.css';
 
 
@@ -34,6 +35,13 @@ class LoginControl extends Component {
         <div className="Login-control">
           <Greeting isLoggedIn={isLoggedIn} name={userName}/>
           {button}
+          <div>
+            {isLoggedIn ? (
+                <EmailList />
+            ) : (
+              <span>Login to check your mailbox.</span>
+            )}
+          </div>
         </div>
       </div>
     );
