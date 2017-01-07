@@ -18,7 +18,7 @@ class Laser extends Component {
 
   render() {
     return (
-      <div className="Clock">
+      <div className="Laser">
         <h2>Fire the "Laser"?</h2>
         <div className="Laser-class">
           <button onClick={this.handleClick}>
