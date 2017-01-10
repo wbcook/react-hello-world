@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 
 const emails = ["React", "Re: React", "Redux", "StarMonkey Blueprints", "Laser"];
-const emailsList = emails.map((email) =>
-  <li>{email}</li>
+const emailsList = emails.map((email, index) =>
+  <li key={index}>
+    {email}
+  </li>
 );
 
 class EmailList extends Component {
