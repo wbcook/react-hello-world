@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import EmailList from './EmailList';
+import SendMail from './SendMail';
 import './App.css';
 
 
@@ -37,7 +38,10 @@ class LoginControl extends Component {
           {button}
           <div>
             {isLoggedIn ? (
+              <div>
                 <EmailList />
+                <SendMail />
+              </div>
             ) : (
               <span>Login to check your mailbox.</span>
             )}
